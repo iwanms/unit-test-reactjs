@@ -18,8 +18,11 @@ function App() {
       </div>
       <h1 data-testid="web__title">Iwan Maolana Sidik</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button
+          data-testid="button__counter"
+          onClick={() => setCount((count) => count + 1)}
+        >
+          {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
