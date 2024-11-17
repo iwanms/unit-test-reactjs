@@ -1,0 +1,28 @@
+1. npm i -D vitest ✔️
+    update package.json
+    "scripts": {
+        "test": "vitest"
+    },
+
+2. npm i -D jsdom @testing-library/react @testing-library/jest-dom ✔️
+    stelah di install pastikan sudah masuk ke package.json
+
+3. setting file vite.config.ts
+
+4.  update tsconfig.json
+    "compilerOptions": {
+        "types": ["vites/globals"]
+    },
+
+Unit testing sudah bekerja dengan 4 step di atas
+
+5. unit test ui di browser
+    tabahkan '--ui' di script test: 
+    "scripts": {
+        "test": "vitest --ui"
+    },
+
+    jalankan command test
+
+6. unit test button
+    link : https://www.youtube.com/watch?v=i2MEVuInFKw&t=1195s
